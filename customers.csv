@@ -1,0 +1,11 @@
+customer_id,customer_name,city,region,signup_date
+1,Aarav Sharma,Pune,West,2024-01-10
+2,Diya Patel,Mumbai,West,2024-01-18
+3,Rohan Verma,Delhi,North,2024-02-02
+4,Ananya Iyer,Bengaluru,South,2024-02-11
+5,Kabir Singh,Jaipur,North,2024-03-07
+6,Meera Nair,Kochi,South,2024-03-20
+7,Ishaan Gupta,Hyderabad,South,2024-04-03
+8,Sara Khan,Lucknow,North,2024-04-22
+9,Vivaan Joshi,Nagpur,West,2024-05-14
+10,Tara Das,Kolkata,East,2024-06-01
