@@ -48,16 +48,6 @@ Relationship overview:
 customers 1 ─── many orders 1 ─── many order_items many ─── 1 products
 ```
 
-## How to run
-
-1. Install MySQL 8.0+ and open MySQL Workbench.
-2. Open and execute `sql/01_schema.sql` to create the database and tables.
-3. Import the four CSV files from `data/` into their matching tables using the Workbench Table Data Import Wizard. Import parent tables first: `customers`, `products`, then `orders`, then `order_items`.
-4. Open and execute `sql/02_analysis_queries.sql`.
-5. Review each query result and optionally export result sets for charts.
-
-**CSV import tip:** The CSV files include column headers. Map columns to the matching table fields and ensure date columns use `YYYY-MM-DD` format. Do not import CSV header rows as data.
-
 ## Business rules and assumptions
 
 - Revenue is calculated as `quantity × unit_price` from `order_items`.
@@ -90,8 +80,7 @@ customers 1 ─── many orders 1 ─── many order_items many ─── 1 
 
 ## Author
 
-Add your name and GitHub profile here.
-
+juhi singh
 ## License
 
 This project is provided for educational and portfolio use.
